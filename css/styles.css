@@ -71,7 +71,11 @@ body{
     align-items: center;
     background: #DAFFEF;
     grid-area: 3 / 2 / 5 / 4;
-    padding: 10px 25% 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.main__text{
+    margin-right: 25%;
 }
 
 .left-aside{
@@ -88,4 +92,24 @@ body{
     padding: 10px 10px 10px 10px;
     display: flex;
     align-items: center;
+}
+
+.main__ul{
+    margin: 0 auto 0 auto;
+}
+
+.main__ol{
+    margin: 0 auto 0 auto;
+}
+
+.main__image{
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.main__map-img{
+    margin: auto;
+    width: 70%;
+    height: auto;
 }
