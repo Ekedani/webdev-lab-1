@@ -10,21 +10,32 @@ body{
 }
 
 .footer{
+    display: flex;
     background: #ff5a5f;
     grid-area: 5 / 1 / 6 / 5;
 }
 
 .header{
+    display: flex;
+    justify-content: space-between;
     background: #087e8b;
     grid-area: 1 / 2 / 2 / 5;
 }
 
 .navigation{
+    display: flex;
+    justify-content: space-between;
     background: green;
     grid-area: 2 / 2 / 3 / 4;
 }
 
+.navigation__link{
+    text-transform: uppercase;
+}
+
 .main{
+    display: flex;
+    align-items: center;
     background: #f5f5f5;
     grid-area: 3 / 2 / 5 / 4;
 }
