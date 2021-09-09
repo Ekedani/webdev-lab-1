@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 20% 10% 10% 40% 20%;
+    min-height: 100vh;
+}
+
+.footer{
+    background: #ff5a5f;
+    grid-area: 5 / 1 / 6 / 5;
+}
+
+.header{
+    background: #087e8b;
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+.navigation{
+    background: green;
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.main{
+    background: #f5f5f5;
+    grid-area: 3 / 2 / 5 / 4;
+}
+
+.left-aside{
+    background: #3c3c3c;
+    grid-area: 1 / 1 / 5 / 2;
+}
+
+.right-aside{
+    background: #3c3c3c;
+    grid-area: 2 / 4 / 5 / 5;
+}
