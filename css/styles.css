@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ff5a5f;
+    background: #d3c0d2;
     grid-area: 5 / 1 / 6 / 5;
     padding: 10px 10px 10px 10px;
 }
@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #087e8b;
+    background: #A6979C;
     grid-area: 1 / 2 / 2 / 5;
     padding: 10px 10px 10px 10px;
 }
@@ -51,7 +51,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: green;
+    background: #D0FFD6;
     padding: 5%;
 }
 
@@ -69,13 +69,13 @@ body{
 .main{
     display: flex;
     align-items: center;
-    background: #f5f5f5;
+    background: #DAFFEF;
     grid-area: 3 / 2 / 5 / 4;
     padding: 10px 25% 10px 10px;
 }
 
 .left-aside{
-    background: #3c3c3c;
+    background: #D5E2BC;
     grid-area: 1 / 1 / 5 / 2;
     padding: 10px 10px 10px 10px;
     display: flex;
@@ -83,7 +83,7 @@ body{
 }
 
 .right-aside{
-    background: #3c3c3c;
+    background: #D5E2BC;
     grid-area: 2 / 4 / 5 / 5;
     padding: 10px 10px 10px 10px;
     display: flex;
