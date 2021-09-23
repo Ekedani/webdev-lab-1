@@ -8,9 +8,6 @@
 
 body {
     margin: 0;
-}
-
-.container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 20% 10% 10% 40% 20%;
@@ -54,7 +51,7 @@ header {
     margin-left: auto;
 }
 
-nav{
+nav {
     grid-area: 2 / 2 / 3 / 4;
     display: flex;
     justify-content: space-between;
