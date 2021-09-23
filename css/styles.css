@@ -18,7 +18,7 @@ body {
     min-width: 100vw;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ body {
     max-width: 50%;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -54,7 +54,7 @@ body {
     margin-left: auto;
 }
 
-.navigation {
+nav{
     grid-area: 2 / 2 / 3 / 4;
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.main {
+main {
     display: flex;
     align-items: center;
     background: var(--my-cyan);
