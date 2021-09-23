@@ -63,13 +63,13 @@ body {
     padding: 5%;
 }
 
-.navigation__link {
+nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
 }
 
-.navigation__link:hover {
+nav a:hover {
     text-decoration: underline;
     transition: 0.3s;
 }
