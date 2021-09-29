@@ -85,7 +85,7 @@ main {
     padding: 10px 10px 10px 10px;
 }
 
-.main__text {
+.main-text {
     margin-right: 25%;
 }
 
@@ -94,7 +94,8 @@ main {
     grid-area: 1 / 1 / 4 / 2;
     padding: 10px 10px 10px 10px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .right {
@@ -102,24 +103,25 @@ main {
     grid-area: 2 / 4 / 4 / 5;
     padding: 10px 10px 10px 10px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.main__ul {
+.main-ul {
     margin: 0 auto 0 auto;
 }
 
-.main__ol {
+.main-ol {
     margin: 0 auto 0 auto;
 }
 
-.main__image {
+.main-image {
     margin: auto;
     width: 50%;
     height: auto;
 }
 
-.main__map-img {
+.main-map {
     margin: auto;
     width: 70%;
     height: auto;
