@@ -24,7 +24,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #d3c0d2;
+    background: var(--my-light-purple);
     grid-area: 4 / 1 / 5 / 5;
     padding: 10px 10px 10px 10px;
 }
