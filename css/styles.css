@@ -89,7 +89,7 @@ main {
     margin-right: 25%;
 }
 
-.left-aside {
+.left {
     background: var(--my-yellow);
     grid-area: 1 / 1 / 4 / 2;
     padding: 10px 10px 10px 10px;
@@ -97,7 +97,7 @@ main {
     align-items: center;
 }
 
-.right-aside {
+.right {
     background: var(--my-yellow);
     grid-area: 2 / 4 / 4 / 5;
     padding: 10px 10px 10px 10px;
