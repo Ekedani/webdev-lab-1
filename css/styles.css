@@ -10,7 +10,12 @@ body {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: minmax(min-content, 20%) minmax(min-content, 10%) minmax(min-content, 50%) minmax(min-content, 20%);
+    grid-template-rows:
+        minmax(min-content, 20%) minmax(min-content, 10%) minmax(
+            min-content,
+            50%
+        )
+        minmax(min-content, 20%);
     min-height: 100vh;
     min-width: 100vw;
 }
