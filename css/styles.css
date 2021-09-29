@@ -73,7 +73,8 @@ nav a:hover {
 
 main {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background: var(--my-cyan);
     grid-area: 3 / 2 / 4 / 4;
     padding: 10px 10px 10px 10px;
