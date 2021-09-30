@@ -6,8 +6,15 @@
     --my-yellow: #d5e2bc;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows:
@@ -17,7 +24,6 @@ body {
         )
         minmax(min-content, 20%);
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 footer {
