@@ -1,4 +1,5 @@
 :root {
+    /* Page color scheme */
     --my-cyan: #daffef;
     --my-light-green: #d0ffd6;
     --my-dark-purple: #a6979c;
@@ -35,11 +36,11 @@ footer {
     padding: 10px 10px 10px 10px;
 }
 
-.footer__heading {
+footer h2 {
     margin-right: auto;
 }
 
-.footer__text {
+.footer-text {
     max-width: 50%;
 }
 
@@ -52,12 +53,12 @@ header {
     padding: 10px 10px 10px 10px;
 }
 
-.header__heading {
+header h1 {
     margin-left: auto;
     margin-right: auto;
 }
 
-.header__text {
+.header-text {
     max-width: 50%;
     margin-left: auto;
 }
